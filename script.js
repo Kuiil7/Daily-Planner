@@ -31,50 +31,26 @@ $(document).ready(function() {
         localStorage.i; 
 
     }
-//Setting up the textarea in red to reflect current time slot in red
+/*//Setting up the textarea in red to reflect current time slot in red
     $("textarea").on("click", function(){
-    //$(this).css("background-color", "red");
+    $(this).css("background-color", "yellow");
     // return false if there's no text input  
         if($(this).val()==''){
             slotUpdateColor = false;
          } 
-//if userinput exist then compare time to current, past, and future data and correesponding classes in time slots using momentsjs
-         
-function slotUpdateColor(){
-    //var slotUpdateColor = true;
-
-    var currentTime = moment();
-       //looping through the 9 - 5 timeslots
-         for (var i = 9; i < 18; i++){
-         //adding a present class if userinput time is current
-            if ($(`#${i}`).data("time") == currentTime){
-                    $("text${i}").addClass( "present");        
-           //the time is ahead of current time then add a future class color to the slot
-                }else if (currentTime < $(`#${i}`).data("time")) {
-                $("text${i}").addClass( "future");  
-            
-                }
-    }
-}
+                  });  
+    */    
 
 
-//setting the update colors interval function to change based on the function above
-        setInterval(function() {
-            slotUpdateColor();
-        }, 1000);  
-     
-
-//setting up save button to store items from elemtn id and text area values to local storage
-
-var saveBtn = $('.saveBtn');
-saveBtn.on('click', function(){
-   var timeEvent = $(this).attr('id');
-   var userInput = $(this).parent().siblings().children('.userinput').val();
-   localStorage.setItem(timeEvent, userInput, i);
-});});
+$('.saveBtn').on('click', function(){
+                      let eventId = $(this).attr('id');
+                      let eventText = $(this).parent().siblings().children('.description').val();
+                      localStorage.setItem(eventId, eventText);
+                      $('#textarea').css("background-color", "red");
 
 
-//preserving entries on page refresh currently not working
+                  });
+
 window.onload = function() {
 localStorage.getItem(`#text${i}`).val();
    }
@@ -89,7 +65,7 @@ function formatAMPM(hours) {
 }
 formatAMPM();
 
-     
+
 
       
 

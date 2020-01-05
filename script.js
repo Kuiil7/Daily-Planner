@@ -1,4 +1,3 @@
-
 //Setting page to load script on page load   
 $(document).ready(function() {
 
@@ -31,24 +30,13 @@ $(document).ready(function() {
         localStorage.i; 
 
     }
-/*//Setting up the textarea in red to reflect current time slot in red
-    $("textarea").on("click", function(){
-    $(this).css("background-color", "yellow");
-    // return false if there's no text input  
-        if($(this).val()==''){
-            slotUpdateColor = false;
-         } 
-                  });  
-    */    
 
-
+//collect adn store user input when clicking the save button and stores to localstorage
 $('.saveBtn').on('click', function(){
                       let eventId = $(this).attr('id');
                       let eventText = $(this).parent().siblings().children('.description').val();
                       localStorage.setItem(eventId, eventText);
-                      $('#textarea').css("background-color", "red");
-
-
+                    
                   });
 
 window.onload = function() {
@@ -56,6 +44,7 @@ localStorage.getItem(`#text${i}`).val();
    }
     
 });
+
 // formatting the am pm hours to display in 12 hour format and to show whether am or pm 
 function formatAMPM(hours) {
     var ampm = hours >= 12 ? 'pm' : 'am';

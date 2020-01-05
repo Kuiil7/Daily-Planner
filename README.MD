@@ -14,8 +14,11 @@ Near the top of the calendar, the application displays the current day. Addition
 Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity. 
 
 Repos: 
-Darh0ky.github.io
-Darh0ky.github.io/Homework5
+https://github.com/darh0ky/Daily-Planner
+
+Site:
+https://darh0ky.github.io/Daily-Planner/
+
 
 Demo: 
 ![Day Planner ](DayPlanner.jpg)

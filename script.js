@@ -34,8 +34,9 @@ $(document).ready(function() {
 //collect adn store user input when clicking the save button and stores to localstorage
 $('.saveBtn').on('click', function(){
                       let eventId = $(this).attr('id');
-                      let eventText = $(this).parent().siblings().children('.description').val();
+                      let eventText = $(this).parent().siblings().children('.userinbput').val();
                       localStorage.setItem(eventId, eventText);
+                     
                     
                   });
 

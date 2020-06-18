@@ -21,5 +21,5 @@ https://darh0ky.github.io/Daily-Planner/
 
 
 Demo: 
-![Day Planner ](DayPlanner.jpg)
+![Day Planner ](DayPlanner.JPG)
 

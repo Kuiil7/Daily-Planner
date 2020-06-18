@@ -20,6 +20,5 @@ Site:
 https://darh0ky.github.io/Daily-Planner/
 
 
-Demo: 
 ![Day Planner ](DayPlanner.JPG)
 

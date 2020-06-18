@@ -34,10 +34,12 @@ textarea {
 .present {
   
     background-color: red;
+    color: white;
 }
 
 .future {
     background-color: green;
+    color: white;
 }
 
 .saveBtn {

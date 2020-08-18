@@ -2,7 +2,7 @@
 
 A simple calendar application that allows the user to save events for each hour of the day.
 
-![Day Planner ](DayPlanner.JPG)
+![Day Planner ](day_planner.png)
 
 The app displays standard business hours (9 a.m. to 5 p.m.). Each time slot should represent one hour and contain the following: time, a field to hold user input, a save button.
 

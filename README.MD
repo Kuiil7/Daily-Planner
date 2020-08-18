@@ -1,16 +1,16 @@
-# Day Planner: A simple calendar application that allows the user to save events for each hour of the day. 
+# Day Planner
 
+A simple calendar application that allows the user to save events for each hour of the day. 
 
 ![Day Planner ](DayPlanner.JPG)
 
- 
 ## Built with
 
-    HTML 
-    CSS 
-    jQuery 
-    MomentsJS
-    Bootstrap
+HTML
+CSS
+jQuery
+MomentsJS
+Bootstrap
 
 ## The App
 

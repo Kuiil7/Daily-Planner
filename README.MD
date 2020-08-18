@@ -24,14 +24,6 @@ Poor time management can result in missed meetings and deadlines or create the a
 
 ![Day Planner ](DayPlanner.JPG)
 
-## Repos
-
-[https://github.com/yourname/darh0ky](https://github.com/darh0ky/)
-
-## Deployment
-
-[https://darh0ky.github.io/Daily-Planner/](https://darh0ky.github.io/Daily-Planner/)
-
 ## License
 
 The MIT License (MIT)
